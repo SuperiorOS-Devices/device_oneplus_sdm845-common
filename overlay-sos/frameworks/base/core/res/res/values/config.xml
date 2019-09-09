@@ -129,4 +129,7 @@
 
     <!-- Whether to enable OP5/T OP cam hack -->
     <bool name="config_hasOnePlusCamera">true</bool>
+
+    <!-- Whether device has a physical display cutout -->
+    <bool name="config_physicalDisplayCutout">true</bool>
 </resources>
