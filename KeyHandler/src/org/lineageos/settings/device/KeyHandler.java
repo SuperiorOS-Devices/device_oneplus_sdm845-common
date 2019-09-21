@@ -134,4 +134,8 @@ public class KeyHandler implements DeviceKeyHandler {
         return false;
         }
 
+    @Override
+    public Intent isActivityLaunchEvent(KeyEvent event) {
+        return null;
+    }
 }
