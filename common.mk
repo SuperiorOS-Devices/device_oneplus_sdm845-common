@@ -208,10 +208,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@3.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.0.vendor
 
-# Doze
-PRODUCT_PACKAGES += \
-    OnePlusDoze
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
@@ -340,6 +336,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     oneplus-fwk
 
+# OnePlusSettings
+PRODUCT_PACKAGES += \
+    OnePlusSettings
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
@@ -405,7 +405,7 @@ PRODUCT_PACKAGES += \
 
 # tri-state-key
 PRODUCT_PACKAGES += \
-    KeyHandler
+    tri-state-key_daemon
 
 # Trust HAL
 PRODUCT_PACKAGES += \
