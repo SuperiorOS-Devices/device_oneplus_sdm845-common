@@ -18,6 +18,7 @@ persist.debug.coresight.config=stm-events
 
 # Display
 debug.sf.enable_hwc_vds=1
+debug.sf.disable_backpressure=1
 
 # fastbootd
 ro.fastbootd.available=true
