@@ -236,6 +236,10 @@
 
     <!-- Flag specifying whether VoLTE is available on device -->
     <bool name="config_device_volte_available">true</bool>
+
+
+ <!-- Whether or not to enable the lock screen entry point for the QR code scanner. -->
+    <bool name="config_enableQrCodeScannerOnLockScreen">true</bool>
     
     <!-- Whether to show VoWiFi icon in the status bar -->
     <bool name="config_display_vowifi">true</bool>
