@@ -1,7 +1,4 @@
 # Type define oneplus camera domain
-<<<<<<< HEAD
-type oneplus_camera_app, domain, coredomain;
-=======
 type oneplus_camera_app, domain;
 app_domain(oneplus_camera_app)
 
@@ -70,4 +67,3 @@ allow oneplus_camera_app surfaceflinger:unix_stream_socket { read write };
 binder_call(oneplus_camera_app, hal_cameraHIDL_default)
 
 get_prop(oneplus_camera_app, vendor_camera_prop)
->>>>>>> 5ff75ed (sdm845-common: packages: Include prebuilt OnePlus Camera)

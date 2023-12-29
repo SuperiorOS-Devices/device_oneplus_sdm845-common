@@ -12,10 +12,6 @@ allow system_server oneplus_camera_app:process { setsched };
 
 allow system_server proc_touchpanel:dir { search };
 
-allow system_server sysfs_battery_supply:file rw_file_perms;
-
-allow system_server sysfs_tri_state_key:file rw_file_perms;
-
 allow system_server vendor_app_file:file { ioctl };
 
 get_prop(system_server, vendor_camera_prop)
