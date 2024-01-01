@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "hardware_oneplus",
+    "target_path": "hardware/oneplus"
+  },
+  {
+    "repository": "vendor_oneplus_sdm845-common",
+    "target_path": "vendor/oneplus/sdm845-common"
+  },
+  {
+    "repository": "vendor_oneplus_fajita",
+    "target_path": "vendor/oneplus/fajia"
+  },
+  {
+    "repository": "vendor_oneplus_enchilada",
+    "target_path": "vendor/oneplus/enchilada"
+   },
+   {
+    "repository": "device_oneplus_enchilada",
+    "target_path": "device/oneplus/enchilada"
+  },
+  {
+    "repository":"LineageOS/android_packages_resources_devicesettings",
+     "target_path":"packages/resources/devicesettings",
+     "branch":"lineage-21.0",
+     "remote":"github"
+  },
+  {
+    "repository": "kernel_oneplus_sdm845",
+    "target_path": "kernel/oneplus/sdm845"
+  }
+]
